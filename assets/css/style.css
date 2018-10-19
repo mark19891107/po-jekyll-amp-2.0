@@ -1,0 +1,62 @@
+.container {
+    max-width: 1170px;
+    padding: 0 52.5px;
+    margin: auto;
+}
+
+.container-fluid {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.section {
+    border-bottom: 1px solid lightgray;
+    padding: 52.5px 0;
+}
+
+hr {
+    border: 0.5px solid lightgray;
+    margin: 52.5px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col100 {
+    padding: 0 52.5px;
+    width: 100%;
+    display: inline-block;
+}
+
+.col66 {
+    padding: 0 52.5px;
+    flex: 0 0 66.6666%;
+    width: 66%;
+    display: inline-block;
+}
+
+.col33 {
+    padding: 0 52.5px;
+    flex: 0 0 33.3333%;
+    display: inline-block;
+}
+
+.image-padding{
+    padding: 26.25px;
+}
+
+.home {
+    height: calc(100vh - 232px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.responsive {
+    width: 100%;
+}

@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 26.25px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    z-index: 9999;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.nav .logo{
+    text-decoration: none;
+    color: black;
+}
+
+.nav .item{
+    padding: 52.5px 26.25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav .item:hover{
+    background-color: lightgray
+}
+
+.nav .logo{
+    margin: 52.5px;
+}
